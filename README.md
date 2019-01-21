@@ -8,7 +8,7 @@ Skład repozytorium:
 # Zadania 
 
 * Zadanie 6.1a
-...
+```
 
 Zbiór danych jest niepustym zbiorem wierszy, z których każdy składa się
 z liczb nieujemnych bez znaku:
@@ -23,5 +23,5 @@ Poszczególne wiersze są niepuste i mają jednorodną postać, tzn. znajdujące
 liczby należą do tej samej kategorii (a, b, c lub d). Każda liczba w wierszu jest
 poprzedzona dowolną (niezerową) liczbą spacji lub znaków tabulacji.
 Skonstruuj wyrażenie regularne/wzorzec definiujące opisany zbiór danych.
-...
+```
 
