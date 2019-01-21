@@ -5,7 +5,7 @@ Skład repozytorium:
 2) Folder zad6c- zadanie 6c od dr.inż. Jankowskiej
 3) Folder zad6d- zadanie 6d od dr.inż. Jankowskiej
 
-#Zadania 
+# Zadania 
 
 * Zadanie 6.1a
 Zbiór danych jest niepustym zbiorem wierszy, z których każdy składa się
