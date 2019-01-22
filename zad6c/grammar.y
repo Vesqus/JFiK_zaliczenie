@@ -6,7 +6,7 @@
 	float fval;
 }
 %start plik
-%token UND NOWALINIA
+%token UND NOWA_LINIA
 %token <ival> CALKOWITA SZESNASTKOWA
 %token <fval> STALOPRZECINKOWA ZMIENNOPRZECINKOWA
 %type <ival> calkowita szesnastkowa
@@ -16,11 +16,11 @@
 plik:
 |     plik wiersz;
 
-wiersz:  NOWALINIA
-|       calkowita NOWALINIA {printf("%d\n", $1); }
-|       szesnastkowa NOWALINIA {printf("%#x\n", $1); }
-|       staloprzecinkowa NOWALINIA {printf("%f\n", $1); }
-|       zmiennoprzecinkowa NOWALINIA {printf("%E\n", $1); };
+wiersz:  NOWA_LINIA
+|       calkowita NOWA_LINIA {printf("%d\n", $1); }
+|       szesnastkowa NOWA_LINIA {printf("%#x\n", $1); }
+|       staloprzecinkowa NOWA_LINIA {printf("%f\n", $1); }
+|       zmiennoprzecinkowa NOWA_LINIA {printf("%E\n", $1); };
 
 calkowita: CALKOWITA { $$ = $1; }
 |    calkowita CALKOWITA { $$ = $1 + $2; };
